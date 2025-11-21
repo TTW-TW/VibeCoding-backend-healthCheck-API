@@ -28,7 +28,7 @@ const server = http.createServer((req, res) => {
         message: "歡迎使用 API 服務",
         endpoints: {
           health: "/api/health",
-          products: "/api/products?min=5000&max=20000",
+          products: "/api/products?min=5000&max=9999999",
         },
       })
     );
